@@ -1725,3 +1725,66 @@ sup{
 
 
                                    
+
+
+
+.header{
+    padding: 20px 0;
+
+    background: #eee;
+}
+
+.cus-container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.cus-row{
+    display: grid;
+    grid-template-columns: 14% 1fr;
+    grid-gap: 30px;
+}
+
+.nav-cus ul{
+    display: flex;
+    grid-gap: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    align-items: center;
+    height: 100%;
+    justify-content: flex-end;
+}
+.nav-cus ul li{
+    background: pink;
+}
+
+
+
+.custom-slider{
+    width: 100%;
+    height: 350px;
+    background: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 767px){
+  .cus-row{ 
+   grid-template-columns:  1fr;
+   grid-gap: 10px;
+}
+}
